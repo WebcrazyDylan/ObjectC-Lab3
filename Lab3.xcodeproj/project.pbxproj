@@ -16,6 +16,7 @@
 		FCF1E2D42697AE9F0093420F /* MultiplicationQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF1E2CB2697AE9F0093420F /* MultiplicationQuestion.m */; };
 		FCF1E2D72697BAD20093420F /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF1E2D62697BAD20093420F /* InputHandler.m */; };
 		FCF1E2DA2697BFF30093420F /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF1E2D92697BFF30093420F /* ScoreKeeper.m */; };
+		FCF1E2DD2698141C0093420F /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF1E2DC2698141C0093420F /* QuestionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		FCF1E2D62697BAD20093420F /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
 		FCF1E2D82697BFF30093420F /* ScoreKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
 		FCF1E2D92697BFF30093420F /* ScoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
+		FCF1E2DB2698141C0093420F /* QuestionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
+		FCF1E2DC2698141C0093420F /* QuestionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				FCF1E2CA2697AE9F0093420F /* SubtractionQuestion.m */,
 				FCF1E2D82697BFF30093420F /* ScoreKeeper.h */,
 				FCF1E2D92697BFF30093420F /* ScoreKeeper.m */,
+				FCF1E2DB2698141C0093420F /* QuestionManager.h */,
+				FCF1E2DC2698141C0093420F /* QuestionManager.m */,
 			);
 			path = Lab3;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				FCF1E2D12697AE9F0093420F /* DivisionQuestion.m in Sources */,
 				FCF1E2D22697AE9F0093420F /* AdditionQuestion.m in Sources */,
 				FCF1E2D32697AE9F0093420F /* SubtractionQuestion.m in Sources */,
+				FCF1E2DD2698141C0093420F /* QuestionManager.m in Sources */,
 				FCF1E2D42697AE9F0093420F /* MultiplicationQuestion.m in Sources */,
 				FCF1E2DA2697BFF30093420F /* ScoreKeeper.m in Sources */,
 				FCF1E2BD2697ADDA0093420F /* main.m in Sources */,

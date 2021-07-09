@@ -11,6 +11,7 @@
 #import "Question.h"
 #import "AdditionQuestion.h"
 #import "ScoreKeeper.h"
+#import "QuestionManager.h"
 int main(int argc, const char * argv[]) {
   @autoreleasepool {
     // Factory Pattern (Factory Method)
@@ -26,9 +27,11 @@ int main(int argc, const char * argv[]) {
       BOOL gameOn = YES;
       ScoreKeeper *sk = [[ScoreKeeper alloc] init];
       QuestionFactory *questionFactory = [[QuestionFactory alloc] init];
+      QuestionManager *questionManager = [[QuestionManager alloc] init];
     
       while (gameOn) {
           Question *q1 = [questionFactory generateRandomQuestion];
+          [[questionManager questions] addObject: q1];
           NSLog(@"%@", [q1 question]);
           
           NSString *input = [InputHandler getUserInput];
@@ -44,6 +47,7 @@ int main(int argc, const char * argv[]) {
               sk.wrong++;
           }
           NSLog(@"%@", sk);
+          NSLog(@"%@", [questionManager timeOutput]);
       }
       NSLog(@"Game Over");
 //    for (int i = 0; i < 10; ++i) {

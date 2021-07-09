@@ -12,9 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface QuestionFactory : NSObject
 
-@property (nonatomic) NSMutableArray *questionSubclassNames;
+@property (nonatomic) NSArray *questionSubclassNames;
 
-- (instancetype) init ;
+//- (instancetype) init ;
 - (Question *) generateRandomQuestion;
 
 @end

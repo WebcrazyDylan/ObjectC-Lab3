@@ -20,12 +20,15 @@
     return  self;
 }
 
-- (void) generateQuestion {}
+//- (void) generateQuestion {}
 
 - (NSInteger) answer {
     _endTime = [NSDate date];
     return _answer;
 }
 
+- (NSTimeInterval) timeToAnswer {
+    return [_endTime timeIntervalSinceDate: _startTime];
+}
 
 @end
